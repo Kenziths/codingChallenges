@@ -117,3 +117,18 @@
 //   function rentalCarCost(days) {
 //     return baseCost(days, 40) - discountRate(days);
 //   }
+
+
+// Your task is to shorten the code as much as possible. Note that submitting the given code will not work because there is a character limit of 137.
+
+// I'll give you a few hints:
+
+// The title itself is a hint - if you're not sure what to do, always research any terminology in this description that you have not heard of!
+// Don't you think the whole "You're a(n) <insert_something_here>" is very repetitive? ;) Perhaps we can shorten it?
+// Write everything in one line, \n and other whitespaces counts.
+
+
+// function describeAge(age) {
+//     return "You're a(n) " + (age < 13 ? "kid" : age < 18 ? "teenager" : age < 65 ? "adult" : "elderly") 
+//   }
+  
