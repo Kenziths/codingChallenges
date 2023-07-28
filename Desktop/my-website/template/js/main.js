@@ -132,3 +132,12 @@
 //     return "You're a(n) " + (age < 13 ? "kid" : age < 18 ? "teenager" : age < 65 ? "adult" : "elderly") 
 //   }
   
+
+// Complete the solution so that it reverses all of the words within the string passed in.
+
+// Words are separated by exactly one space and there are no leading or trailing spaces.
+
+// function reverseWords(str){
+//     return str.split(" ").reverse().join(" ")
+//   }
+  
