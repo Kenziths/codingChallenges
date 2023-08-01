@@ -162,3 +162,9 @@
 // function duckDuckGoose(players, goose) {
 //     return goose ? player[(goose - 1) % players.lenght].name : ''
 //   }
+
+//  Create a method that accepts a list and an item, and returns true if the item belongs to the list, otherwise false.
+
+//  function include(arr, item){
+//     return arr.includes(item)
+//  }
