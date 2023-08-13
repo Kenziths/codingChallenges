@@ -282,6 +282,9 @@
 //     else
 //       return "Hello, " + name + "!";
 //   }
-  
-//Write a function that will compare two values, one will be a number and one will be a string. Return true if they are the same character (regardless of their different data types) and return false if they are not.
-// ß
+
+//Write a function which returns a new string containing the same character sequences except the first and the last ones but this time separated by spaces.
+
+// function array(arr) {
+//     return arr.split(",").slice(1,-1).join(" ") || null
+//   }
