@@ -318,3 +318,11 @@
 // function doubleChar(str) {
 //     const doubleChar = (str) => str.split("").map(c => c + c).join("")
 //   }
+
+// Write a function that always returns 5
+
+// Sounds easy right? Just bear in mind that you can't use any of the following characters: 0123456789*+-/
+
+// function unusualFive() {
+//     return "wowow".length
+//   }
