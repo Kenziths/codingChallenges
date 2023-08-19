@@ -312,3 +312,9 @@
 
 // let items = []
 // items.push ({a: "b", c: "d"})
+
+//Given a string, you have to return a string in which each character (case-sensitive) is repeated once.
+
+// function doubleChar(str) {
+//     const doubleChar = (str) => str.split("").map(c => c + c).join("")
+//   }
