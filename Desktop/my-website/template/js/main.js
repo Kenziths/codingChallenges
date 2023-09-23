@@ -381,3 +381,7 @@
 //function SafeInteger(n) {
 //     return Number .isSafeInteger(n)
 // }
+
+// Get ASCII value of a character.
+
+//Get ASCII value of a character.
