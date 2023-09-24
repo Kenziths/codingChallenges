@@ -391,3 +391,13 @@
 //Create a class Ghost
 //Ghost objects are instantiated without any arguments.
 //Ghost objects are given a random color attribute of "white" or "yellow" or "purple" or "red" when instantiated
+
+//Complete the function that takes two integers (a, b, where a < b) and return an array of all integers between the input parameters, including them.
+
+//     let arr = []
+// function between(a, b) {
+//     for(let i = a; i <=b; i++){
+//       arr.push(i)
+//     }
+//     return arr
+//   }
