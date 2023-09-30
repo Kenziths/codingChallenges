@@ -417,3 +417,9 @@
 //       return false
 //     }
 //   }
+
+// Create a function for the terminal game that takes the current position of the hero and the roll (1-6) and return the new position.
+
+// function move (position, roll) {
+//   return mov = position + (roll * 2)
+// }
