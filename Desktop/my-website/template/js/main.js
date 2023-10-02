@@ -431,3 +431,12 @@
 // function betterThanAverage(classPoints, yourPoints) {
 //   return yourPoints > classPoints.reduce((a,b) => a + b, 0) / classPoints.length
 // }
+
+//Define a function that counts how many more (or less) pieces of toast you need in the toasters. Even though you need more or less, the number will still be positive, not negative.
+
+// function sixToast(num) {
+//     if (num < 6 ){
+//       return 6 - num
+//     }else
+//       return num - 6
+//    }
