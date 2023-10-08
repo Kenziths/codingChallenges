@@ -479,3 +479,9 @@
 // function twoSort(s) {
 //     return s.sort()[0].split('').join('***')
 //   }
+//Write a function to split a string and convert it into an array of words.
+// function stringToArray(string){
+
+//     return string.split(" ")
+   
+//    }
