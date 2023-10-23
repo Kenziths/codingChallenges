@@ -563,3 +563,14 @@
 // function nameShuffler(str){
 //     return str.split(' ').reverse().join(' ')
 //   }
+
+// Create a method to see whether the string is ALL CAPS.
+
+
+// String.prototype.isUpperCase = function() {
+//     if(this === this.toUppercase){
+//       return true
+//     }else{
+//       return false
+//     }
+//   }
