@@ -705,4 +705,10 @@
 // If one of the arguments is a number your code must coerce it into being a string.
 // function joinStrings(string1, string2){
 //     return `${string1} ${string2}`.toString()
-//  }
+// //  }
+// omplete the solution so that it reverses all of the words within the string passed in.
+
+// Words are separated by exactly one space and there are no leading or trailing spaces.
+// function reverseWords(str){
+//     return str.split(" ").reverse().join(" ")
+//   }
