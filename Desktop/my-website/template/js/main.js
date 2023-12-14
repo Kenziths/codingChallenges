@@ -712,3 +712,10 @@
 // function reverseWords(str){
 //     return str.split(" ").reverse().join(" ")
 //   }
+// You get any card as an argument. Your task is to return the suit of this card (in lowercase).
+// function defineSuit(card) {
+//     if(card.inludes('♣'))return 'clubs'
+//     if(card.inludes('♦'))return 'diamonds'
+//     if(card.inludes('♥'))return 'hearts'
+//     if(card.inludes('♠'))return 'spades'
+//     }
