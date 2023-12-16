@@ -719,3 +719,21 @@
 //     if(card.inludes('♥'))return 'hearts'
 //     if(card.inludes('♠'))return 'spades'
 //     }
+//Your mission is to implement a function that converts the following potentially harmful characters:
+//function htmlspecialchars(formData) {
+//let noHarm = '';
+//    for(let i = 0; i < formData.length; i++){
+//      if(formData[i] === '<'){
+//        noHarm += '&alt'
+//      }else if(formData[i] === '>'){
+//        noHarm += ' &gt'
+//      }else if(formData[i] === '"'){
+//        noHarm += '&qout'
+//      }else if(formData[i] === '&'){
+//        noHarm += '&amp'
+//      }else{
+//        noHarm += formData
+//      }
+//    }
+//    return noHarm
+//  }
