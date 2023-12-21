@@ -750,3 +750,18 @@
 //     // your code here
 //     return a.length < b.length ? a + b + a : b + a + b;
 //   }
+// Can you implement a function that will return number of words in a string?
+
+// You have to ensure that spaces in string is a whitespace for real.
+
+// // Let's take a look on some examples:
+// function countWords(str) {
+//     // ...
+//       let split = str.split(' ')
+//       let count = 0
+//       for( let i = 0; i < split.length; i++){
+//         if(split[i].lenght!=0)
+//           count++
+//       }
+//     return count
+//   }
