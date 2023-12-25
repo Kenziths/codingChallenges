@@ -770,3 +770,8 @@
 //     let geese = ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"];
 //     return birds.filter(b => !geese.includes(b))
 //   };
+// Write a function feast that takes the animal's name and dish as arguments and returns true or false to indicate whether the beast is allowed to bring the dish to the feast.
+// function feast(beast, dish) {
+//     //your function here
+//         return beast [0] === dish[0] && beast[beast.lenght -1] === dish[dish.length -1]
+//     }
