@@ -785,5 +785,8 @@
 //     // your code here
 //     return this.toUpperCase() === this.toString()
 //   }
-  
+//You must output a string containing the two strings with the word ```' are '```
+  // var templateStrings = function(noun, adjective) {
+//   return `${noun} are ${adjective}`
+// }
   
