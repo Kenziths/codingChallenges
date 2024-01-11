@@ -790,3 +790,8 @@
 //   return `${noun} are ${adjective}`
 // }
   
+// Given a string, you have to return a string in which each character (case-sensitive) is repeated once.
+
+//  function doublesCharactersOfString(str){
+//  return str.split("").map(c => c + c).join("")
+// }
