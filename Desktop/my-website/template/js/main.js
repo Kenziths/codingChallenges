@@ -814,3 +814,14 @@
 // function toBinary(n){
 //     return +n.toString(2)
 //   }
+//An isogram is a word that has no repeating letters, consecutive or non-consecutive. Implement a function that determines whether a string that contains only letters is an isogram. Assume the empty string is an isogram. Ignore letter case.
+
+//function isIsogram(str){
+  
+// for(let i = 0; i < str.length; i++ )
+// for (let j = 0; i < str.length; i++)
+//   if(str[i] === str[j]){
+//       return false
+//   }
+// return true
+// }
