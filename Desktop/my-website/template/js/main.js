@@ -825,3 +825,30 @@
 //   }
 // return true
 // }
+
+// Count the number of divisors of a positive integer n.
+
+// // Random tests go up to n = 500000.
+// function getDivisorsCnt(n){
+//     // todo
+//   let length = 0
+//    for(let i = 1; i < n; i++){
+//      if(n%i === 0){
+//        length++
+//      }
+//    }
+//   return length;
+// }
+// function countBy(x, n) {
+//     let arr = []
+    
+//     for(let i = 1; i <= n; i++){
+//       arr.push(x * i)
+//     }
+//     return arr
+//   }
+//   Create a function with two arguments that will return an array of the first n multiples of x.
+
+// Assume both the given number and the number of times to count will be positive numbers greater than 0.
+
+// Return the results as an array or list ( depending on language ).
