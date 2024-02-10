@@ -896,3 +896,11 @@
 // SELECT * 
 // FROM companies
 // ORDER BY employees desc
+
+// Your function takes as parameter the number of times the cube has been cut. You must return the number of smaller cubes created by the cuts that have at least one red face.
+
+// SELECT n, CASE
+//       WHEN n = 0 THEN 1 
+//       ELSE n * n * 6 + 2
+//     END AS res
+//     FROM squares
