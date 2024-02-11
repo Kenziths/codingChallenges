@@ -904,3 +904,12 @@
 //       ELSE n * n * 6 + 2
 //     END AS res
 //     FROM squares
+//By repairing the function provided, you will find out exactly how you should respond, depending on the number of dogs he has.
+// SELECT n, 
+//   CASE
+//     WHEN n <= 10 THEN 'Hardly any'
+//     WHEN n <= 50 THEN 'More than a handful!'
+//     WHEN n <= 100 THEN 'Woah that''s a lot of dogs!'
+//   ELSE  '101 DALMATIONS!!!'
+// END AS res
+// FROM dalmatians;
