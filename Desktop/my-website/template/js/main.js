@@ -913,3 +913,16 @@
 //   ELSE  '101 DALMATIONS!!!'
 // END AS res
 // FROM dalmatians;
+//Write a function that returns the total surface area and volume of a box as an array: [area, volume]
+// SELECT
+//   width,
+//   height,
+//   depth
+//    ((width * height) * 2) + ((width * depth) * 2) + ((height * depth) * 2) as area;
+//     width * height * depth as volume
+//      FROM box
+//      ORDER BY
+//       area,
+//       volume,
+//       width,
+//       height;
