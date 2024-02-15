@@ -930,3 +930,8 @@
 // SELECT name,country
 // FROM travelers
 // WHERE country NOT IN ('Canada','Mexico','USA')
+// For each row: Return first x characters of the project name where x = commits. Return last y characters of each address where y = contributors.
+// SELECT
+//   left(project, commits) AS project,
+//   right(address, contributors) AS address
+// FROM repositories;
