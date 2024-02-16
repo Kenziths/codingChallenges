@@ -935,3 +935,15 @@
 //   left(project, commits) AS project,
 //   right(address, contributors) AS address
 // FROM repositories;
+// // Write an SQL query that selects the names of the opinion giver and receiver(opinion_giver and opinion_receiver), along with their current (current_opinion) and previous (previous_opinion) opinions. Include only records where the current opinion differs from the previous opinion. Sort the results first by the name of the opinion giver and then by the name of the opinion receiver - both in ascending alphabetical order.
+// SELECT
+//   giver.name AS opinion_giver
+//   receiver.name AS opinion_reciever,
+//   po.current_opinion
+//   po.previous_opinion
+//   FROM people_opinions AS po
+//   INNER JOIN people AS giver ON giver.person_id = po.opinion_giver_id
+//   INNER JOIN people AS giver ON reciever.person_id = po.person_id
+//   WHERE po.current_opinion IS DISTINCT FROM po.person_id
+//   ORDER BY opinion_giver ASC, opinion_receiver ASC
+
