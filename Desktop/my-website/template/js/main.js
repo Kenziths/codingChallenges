@@ -947,3 +947,15 @@
 //   WHERE po.current_opinion IS DISTINCT FROM po.person_id
 //   ORDER BY opinion_giver ASC, opinion_receiver ASC
 
+// Write a SQL query that performs the following operations:
+
+// Extracts and counts public domain email addresses from the users table, using the public_domains table for reference.
+// Filters out non-public email addresses.
+// Aggregates the data to count the number of users per public domain.
+// Sorts the result in descending order based on the count of users per domain with a secondary sorting criterion that sorts alphabetically by domain in case of a tie in the counts.
+// select domain, count(*) user_count 
+// from users 
+// join public_domains on split_part(email,'@',2) = domain
+// group by domain
+// order by user_count desc, domain
+
