@@ -1000,6 +1000,7 @@
 // In this kata you need to check the provided array (x) for good ideas 'good' and bad ideas 'bad'. If there are one or two good ideas, return 'Publish!', if there are more than 2 return 'I smell a series!'. If there are no good ideas, as is often the case, return 'Fail!'.
 // function well(x){
 //   let goodIdeas = 0;
+
 //     for(let i = 0; i < x.length; i += 1){
 //       if(x[i]== "Good"){
 //         goodIdeas += 1
@@ -1009,4 +1010,21 @@
 //       }
 //     }
 //   return goodIdeas >= 1 ? "publish!" : "Fail"
+// }
+// Your task is to find the first element of an array that is not consecutive.
+
+// By not consecutive we mean not exactly 1 larger than the previous element of the array.
+
+// E.g. If we have an array [1,2,3,4,6,7,8] then 1 then 2 then 3 then 4 are all consecutive but 6 is not, so that's the first non-consecutive number.
+
+// If the whole array is consecutive then return null2.
+
+// The array will always have at least 2 elements1 and all elements will be numbers. The numbers will also all be unique and in ascending order. The numbers could be positive or negative and the first non-consecutive could be either too!
+// function firstNonConsecutive (arr) {
+//   for(let i = 0; i < arr.length - 1 ; ++i){
+//     if (arr[i] + 1 !== arr[i + 1]) {
+//       return arr[i + 1]
+//     }
+//   }
+//   return null
 // }
